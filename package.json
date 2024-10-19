@@ -3,7 +3,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "seed": "node -r dotenv/config ./seed/route.ts",
     "start": "next start"
+
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
